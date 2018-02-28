@@ -1,0 +1,7 @@
+echo "
+rt(){
+#restartando tomcat 
+sh /opt/apache-tomcat-7.0.85/bin/shutdown.sh
+sh /opt/apache-tomcat-7.0.85/bin/startup.sh
+}" >> /etc/bash.bashrc
+
